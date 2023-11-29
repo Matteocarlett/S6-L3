@@ -1,0 +1,32 @@
+@import "reset";
+@import "spaziature";
+@import "mixins";
+@import "font";
+@import "colori";
+@import "bottoni";
+@import "animazioni";
+
+*{
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.foto img{
+    border-radius: 30px;
+}
+
+nav p{
+    color:black;
+}
+
+main img{
+    border-radius: 30px;
+    border: solid $coloreTesti 1px;
+    width: 70%;
+    position: relative;
+    left: 5rem;
+    top: 10rem;
+}

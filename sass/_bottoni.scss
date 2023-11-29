@@ -1,0 +1,27 @@
+.bottoni a{
+    padding: 1rem;
+}
+
+.bottoni a:first-child{
+    background-color: $blu-button;
+}
+
+.bottoni a:nth-child(2){
+    background-color: $orange-button;
+}
+
+.bottoni a:nth-child(3){
+    background-color:$green-button;
+}
+
+.bottoni a{
+    border-radius: 7%;
+    text-decoration:none;
+}
+.bottoni a{
+    color: $coloreTesti;
+    margin-left:0.7rem ;
+}
+.bottoni{
+    margin-top: 3rem;
+}

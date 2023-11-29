@@ -1,0 +1,22 @@
+$coloreTesti: #f4f4f4;
+$blu-button: #0e6cff;
+$orange-button: #ff8700;
+$green-button: #4caf50;
+$bg-violet: #640fc5;
+$h1-bluViolet:#220345;
+
+main, nav{
+    background-color: $bg-violet;
+}
+
+h1{
+    color: $h1-bluViolet;
+}
+
+li{
+    color: $coloreTesti;
+}
+
+main p{
+    color: $coloreTesti;
+}

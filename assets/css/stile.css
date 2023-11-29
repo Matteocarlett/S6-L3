@@ -1,0 +1,176 @@
+/* CSS Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  -webkit-text-size-adjust: none;
+}
+
+main, nav {
+  padding-top: 5rem;
+  padding-left: 12rem;
+  padding-right: 12rem;
+}
+
+main {
+  display: flex;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+}
+
+.testo {
+  padding-top: 7rem;
+}
+
+li {
+  padding: 1rem;
+}
+
+.foto {
+  display: flex;
+}
+
+.foto img {
+  padding: 0.5rem;
+  width: 25%;
+  margin-top: 15rem;
+}
+
+main p {
+  padding-top: 1.5rem;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.3rem;
+}
+
+p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 1em;
+  font-weight: 800;
+}
+
+nav p:first-of-type {
+  font-weight: bold;
+}
+
+nav p {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+main p {
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+main, nav {
+  background-color: #640fc5;
+}
+
+h1 {
+  color: #220345;
+}
+
+li {
+  color: #f4f4f4;
+}
+
+main p {
+  color: #f4f4f4;
+}
+
+.bottoni a {
+  padding: 1rem;
+}
+
+.bottoni a:first-child {
+  background-color: #0e6cff;
+}
+
+.bottoni a:nth-child(2) {
+  background-color: #ff8700;
+}
+
+.bottoni a:nth-child(3) {
+  background-color: #4caf50;
+}
+
+.bottoni a {
+  border-radius: 7%;
+  text-decoration: none;
+}
+
+.bottoni a {
+  color: #f4f4f4;
+  margin-left: 0.7rem;
+}
+
+.bottoni {
+  margin-top: 3rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.foto img {
+  border-radius: 30px;
+}
+
+nav p {
+  color: black;
+}
+
+main img {
+  border-radius: 30px;
+  border: solid #f4f4f4 1px;
+  width: 70%;
+  position: relative;
+  left: 5rem;
+  top: 10rem;
+}/*# sourceMappingURL=stile.css.map */
